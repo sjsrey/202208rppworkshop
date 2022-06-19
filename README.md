@@ -7,5 +7,6 @@
 - in progress
 
 ### Social Justice: Disparities Accepted 2022-04-14
+- get input from team
 
 ### Other
