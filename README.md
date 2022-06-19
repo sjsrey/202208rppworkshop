@@ -1,4 +1,5 @@
 # RPP Geocomputation Workshop
+Workshop for RPP Project, August 8 2022
 
 ## Potential Topics
 
