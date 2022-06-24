@@ -7,7 +7,7 @@ Workshop for RPP Project, August 8 2022
 
 - in progress
 
-### Social Justice: Disparities Accepted 2022-04-14
+### Social Justice: Disparities in Tree Cover?
 - get input from team
 
 ### Other
