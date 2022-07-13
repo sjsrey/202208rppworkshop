@@ -7,3 +7,5 @@ dependencies:
   - geosnap
   - jupyterlab
   - pysal
+  - numpy<=1.21
+  - python=3.9
