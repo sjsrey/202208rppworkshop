@@ -89,3 +89,27 @@ buffer_population = estimates
 
 eev = estimates[extensive_variables]
 buffer_composition = eev.div(estimates['n_total_pop'], axis=0)
+
+def choro3roads(gdf=gdf, roads=b1000, var1='p_nonhisp_white_persons',
+                var2='p_hispanic_persons',
+                var3='p_nonhisp_black_persons'):
+
+    from matplotlib import pyplot
+    fig, (ax1, ax2, ax3) = pyplot.subplots(ncols=3,
+                                           sharex=True,
+                                           sharey=True,
+                                           figsize=(16, 9))
+    gdf.plot(ax=ax1, column=var1, scheme='quantiles', k=5)
+    roads.plot(ax=ax1, color='white')
+    gdf.plot(ax=ax2, column=var2, scheme='quantiles', k=5)
+    roads.plot(ax=ax2, color='white')
+    gdf.plot(ax=ax3, column=var3, scheme='quantiles', k=5)
+    roads.plot(ax=ax3, color='white')
+    ax1.set_axis_off()
+    ax1.set_title(var1)
+    ax2.set_axis_off()
+    ax2.set_title(var2)
+    ax3.set_axis_off()
+    ax3.set_title(var3)
+    return fig
+
