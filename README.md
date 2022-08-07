@@ -1,16 +1,11 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sjsrey/202208rppworkshop/HEAD?labpath=content%2Ffreeways.ipynb)
 # RPP Geocomputation Workshop
 Workshop for RPP Project, August 8 2022
 
 ![Example](content/figures/example.png)
-## Potential Topics
 
-### Environmental Justice: Disparities in Exposure to Freeway Pollution
 
-- in progress
 
-### Social Justice: Disparities in Tree Cover?
-- get input from team
-
-### Other
+For any questions pleaes contact Sergio Rey at srey@sdsu.edu
 
 
